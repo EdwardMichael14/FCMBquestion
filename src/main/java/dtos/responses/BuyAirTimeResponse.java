@@ -7,6 +7,6 @@ public class BuyAirTimeResponse {
 
     private String phoneNumber;
     private String networkProvider;
-    private int amount;
+    private String message;
 
 }

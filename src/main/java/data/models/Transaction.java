@@ -12,10 +12,10 @@ public class Transaction {
 
     @Id
     private String id;
-    private String customerId;
     private String sourceAccoountNumber;
     private String destinationAccoountNumber;
     private BigDecimal amount;
     private TransactionType transactionType;
+    private String networkProvider;
 
 }
